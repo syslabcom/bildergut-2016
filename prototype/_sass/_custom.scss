@@ -4,7 +4,7 @@ body {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.4em;
-	background: pink;
+	//background: pink;
 }
 
 img {
@@ -15,11 +15,17 @@ p {
 	margin: 0 0 1.5em 0;
 }
 
+// masonry
+
+.pat-masonry .columns {
+    margin-bottom: 0.5em;
+}
+
 // subnavigation
 
 .subnav {
   background-color: #fff;
-  margin: 0 36px;
+  margin: 0 2em;
   height: 54px;
 
   &.bumped {
@@ -44,4 +50,10 @@ p {
 	width: 160px;
 	background-image: url(/media/head_white1.png);
 	background-repeat: no-repeat;
+}
+
+// footer
+
+#footer {
+    margin: 0 2em;
 }
