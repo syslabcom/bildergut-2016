@@ -26,8 +26,7 @@ p {
 
 .subnav {
   background-color: #fff;
-  padding: 0 2em;
-  height: 54px;
+  padding: .5em 2em;
 
   &.bumped {
     border-bottom: none;
@@ -59,7 +58,16 @@ section {
     padding: 1em 7rem 2em 2em;
   }
 
+  .people-cloud .person {
+  	padding: 0 0;
+  }
+
+  .people-cloud .person figcaption {
+  	text-align: left;
+  }
 }
+
+
 // footer
 
 #footer {
