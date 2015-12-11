@@ -1,7 +1,7 @@
 
   <div class="subnav pat-bumper">
       <nav class="container navigation tabs">
-        <a href="/" class="tab home"></a>
+        <a href="/" class="home"></a>
       {% for item in site.posts %}
           {% if item.category == 'subnav' %}
             <a href="{{ item.url }}">{{ item.title }}</a>

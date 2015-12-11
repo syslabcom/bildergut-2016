@@ -25,7 +25,7 @@ p {
 
 .subnav {
   background-color: #fff;
-  margin: 0 2em;
+  padding: 0 2em;
   height: 54px;
 
   &.bumped {
@@ -46,8 +46,8 @@ p {
 }
 
 .tabs .home {
-	height: 50px;
-	width: 160px;
+	padding-top: 50px;
+	padding-right: 180px;
 	background-image: url(/media/head_white1.png);
 	background-repeat: no-repeat;
 }
