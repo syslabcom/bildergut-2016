@@ -5,12 +5,13 @@
 	> a {
 		display: inline-block;
 		padding: 0.2rem 1em;
+		color: black;
 		// color: rgba(0,0,0,0.4);
 		// font-weight: 700;
 
 		&:hover,&.current {
 			text-decoration: none;
-			color: white;
+			color: black;
 		}
 	}
 }
