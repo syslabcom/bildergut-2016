@@ -20,6 +20,7 @@ $colour-octanary: #efefef;
 $colour-nonary: #efefef;
 $colour-denary: #efefef;
 
+$grid-gutter: 0;
 // Functional colours
 $colour-alert: red;
 
@@ -66,3 +67,4 @@ $tablet:768px;
 @import "components/showcase";
 @import "components/stacks";
 @import "components/tabs";
+@import "_custom";
