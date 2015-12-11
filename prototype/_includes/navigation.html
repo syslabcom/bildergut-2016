@@ -1,18 +1,12 @@
 
   <div class="subnav pat-bumper">
       <nav class="container navigation tabs">
-      <a class="section-name pat-scroll" href="/" title="Back to home"><strong>BILDERGUT</strong></a>
+      <a href="#home" class="tab home pat-scroll">Home</a>
       {% for item in site.posts %}
-          {% if item.category == 'subnav' %}   
+          {% if item.category == 'subnav' %}
             <a href="{{ item.url }}" class="pat-scroll">{{ item.title }}</a>
           {% endif %}
         {% endfor %}
-        <a href="#home" class="icon home pat-scroll">Home</a>
+
       </nav>
   </div>
-
-<!--ul id="navigation">
-      <li id="logo"><a href="http://www.bildergut.com/" title="Back to home"></a></li>
-      <li id="portaltab-sideprojects" class="plain"><a href="http://www.bildergut.com/sideprojects" title="">SIDEPROJECTS</a></li><li id="portaltab-about" class="plain"><a href="http://www.bildergut.com/about" title="">ABOUT</a></li><li id="portaltab-contact" class="plain"><a href="http://www.bildergut.com/contact" title="">CONTACT</a></li><li id="portaltab-clients" class="plain"><a href="http://www.bildergut.com/clients" title="">CLIENTS</a></li>
-  <li class="backlink">back</li>
-</ul-->
