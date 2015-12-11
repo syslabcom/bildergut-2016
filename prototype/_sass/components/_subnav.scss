@@ -25,7 +25,7 @@
   .tabs {
     padding: 0;
     max-width: 100%;
-  
+
     @include screen-size(small-medium) {
       width: 100%;
     }

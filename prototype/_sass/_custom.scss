@@ -1,1 +1,47 @@
-// xx
+// body
+
+body {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.4em;
+	background: pink;
+}
+
+img {
+	margin: 0;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+// subnavigation
+
+.subnav {
+  background-color: #fff;
+  margin: 0 36px;
+  height: 54px;
+
+  &.bumped {
+    border-bottom: none;
+  }
+}
+
+.tabs {
+	> a {
+		font-size: 0.8em;
+		padding-top: .5em;
+
+		&:hover,&.current {
+			text-decoration: none;
+			color: #666;
+		}
+	}
+}
+
+.tabs .home {
+	height: 50px;
+	width: 160px;
+	background-image: url(/media/head_white1.png);
+	background-repeat: no-repeat;
+}
