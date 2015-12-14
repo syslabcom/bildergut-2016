@@ -1,25 +1,19 @@
 .global-nav {
-	background: #7a681f;
+	background: white;
 	position: relative;
 	// Override pat-bumper left value:
 	left: 0 !important;
 	z-index: 5;
-	text-align: center;
+	text-align: left;
 	font-size: 1.3rem;
 	padding: 0.5em 0;
 	transition: background-color 4s;
 
-	// &.bumped {
-	// 	position: fixed !important;
-	// 	top: 0px !important;
-	// 	right: 0;
-	// 	left: 0;
-	// }
-
 	li {
 		display: inline-block;
-		padding: 0 1em;
-    	color: rgba(255,255,255,0.4);
+		padding: 0 1em 0 0;
+		margin-left: 0 !important;
+    	color: rgba(0,0,0,0.7);
 
     	&.languages {
     		position: absolute;
@@ -30,16 +24,16 @@
 			transform: translateX(50%);
 
 			a {
-				width: 2.6em;
+				width: 2.2em;
 				height: 2.6em;
 				margin: 0 0.3em;
 				line-height: 2.6em;
 				text-align: center;
-				border: 1px rgba(255,255,255,0.6) solid;
+				border: 1px rgba(0,0,0,0.6) solid;
 				border-radius: 50%;
 
 				&:hover {
-					background-color: rgba(255,255,255,0.2);
+					background-color: rgba(0,0,0,0.2);
 				}
 
 				&.current {
@@ -70,11 +64,12 @@
 
 	a {
 		display: inline-block;
-		font-weight: 700;
-    	color:  rgba(255,255,255,0.6);
+		font-weight: 200;
+    	color:  rgba(0,0,0,0.6);
 
     	&.current {
-    		color: white;
+    		color: black;
+			font-weight: 300;
     	}
 	}
 }
