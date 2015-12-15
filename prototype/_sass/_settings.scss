@@ -1,5 +1,10 @@
 // Assets
-@import url(https://fonts.googleapis.com/css?family=Verdana:100,300,500,700);
+@font-face {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 300;
+}
+
 @import "fontello/css/fontello.css";
 @import "mixins";
 
